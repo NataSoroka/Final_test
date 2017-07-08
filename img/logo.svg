@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
+    <polygon points="0,50 15,35 15,15 35,15 50,0 65,15 85,15 85,35 100,50 85,65 85,85 65,85 50,100 35,85 15,85 15,65" stroke-width="1" stroke="black" fill="rgb(207,226,243)"></polygon>
+    <text x="35%" y="55%" style="font-family: Tahoma; font-size: 18px;">logo</text>
+</svg>

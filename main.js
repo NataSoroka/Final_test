@@ -1,13 +1,9 @@
 window.onload = function () {
-
+    var arr_content = document.querySelectorAll(".content .block");
     function MenuItem(name) {
         this.name = name;
         this.click = function () {
             var num = +this.getAttribute("data-num-content");
-            var arr_content = document.querySelectorAll(".content .block");
-
-            console.log(num);
-
             document.querySelector(".menu .active").classList.toggle("active");
             this.classList.toggle("active");
             document.querySelector(".content .visible").classList.toggle("visible");
@@ -24,7 +20,7 @@ window.onload = function () {
         }
     }
     var arr=[];
-    for (var i=1; i<=7; i++){
+    for (var i=1; i<=arr_content.length; i++){
         arr.push(new MenuItem("Item "+i));
     }
     var menu = document.querySelector(".menu");
